@@ -7,7 +7,7 @@
     "test": "babel-node test/test.js | faucet",
     "tail": "tail -f app.log | bunyan -o short"
   },
-  "author": "trong-le",
+  "author": "beckysteele",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.5.1",
@@ -28,8 +28,8 @@
     "knex": "^0.10.0",
     "lodash": "^3.9.3",
     "lodash-deep": "^1.6.0",
-    "papaparse": "^4.1.2",
     "lodash.curry": "^3.1.0",
-    "sqlserver": "^2.11.1"
+    "papaparse": "^4.1.2",
+    "seriate": "^0.7.2"
   }
 }

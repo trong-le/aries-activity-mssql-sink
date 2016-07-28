@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+app.log
+.env
+flattened
+highlandjsTest.js
+incomingSchema.csv
+sampleJson
+test.txt
+testFile
+testing.txt
+.DS_Store
