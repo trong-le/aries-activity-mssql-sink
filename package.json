@@ -1,5 +1,5 @@
 {
-  "name": "@aries-data/aries-activity-mssql-sink",
+  "name": "aries-data/aries-activity-mssql-sink",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
