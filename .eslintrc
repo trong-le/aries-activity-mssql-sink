@@ -1,0 +1,5 @@
+{
+    "extends": "airbnb",
+    "indent" 4,
+    "plugins: ["babel"]
+}

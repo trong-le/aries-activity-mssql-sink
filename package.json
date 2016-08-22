@@ -1,0 +1,35 @@
+{
+  "name": "@aries-data/aries-activity-mssql-sink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "babel-node test/test.js | faucet",
+    "tail": "tail -f app.log | bunyan -o short"
+  },
+  "author": "beckysteele",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "blue-tape": "^0.2.0",
+    "faucet": "0.0.1",
+    "nock": "^7.0.2"
+  },
+  "dependencies": {
+    "aries-data": "aries-data/aries-data",
+    "highland": "^2.9.0",
+    "json-schema-generator": "^2.0.3",
+    "jts-infer": "0.0.0",
+    "knex": "^0.10.0",
+    "lodash": "^3.9.3",
+    "lodash-deep": "^1.6.0",
+    "lodash.curry": "^3.1.0",
+    "papaparse": "^4.1.2",
+    "seriate": "^0.7.2"
+  }
+}
